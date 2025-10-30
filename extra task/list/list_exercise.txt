@@ -1,0 +1,127 @@
+
+🔹 Intermediate Level
+
+
+🔹 Advanced Level
+
+Find all pairs of numbers whose sum is equal to a target.
+
+Split a list into chunks of n elements.
+
+Remove None and empty strings from a list.
+
+Multiply all numbers in a list.
+
+Create a list of factorials for numbers 1–10.
+
+Implement a custom function to reverse a list (without using reverse()).
+
+Sort a list of tuples by the second element.
+
+Find intersection of multiple lists.
+
+Separate positive, negative, and zero numbers into different lists.
+
+Generate a list of prime numbers in a given range.
+
+🟠 TUPLE PRACTICE PROGRAMS
+🔹 Basic Level
+
+Create a tuple of 5 elements and print it.
+
+Access elements by index and negative index.
+
+Slice a tuple to get a subtuple.
+
+Check if an element exists in a tuple.
+
+Find length, max, and min of a tuple.
+
+Convert a list into a tuple and vice versa.
+
+Count how many times an element appears.
+
+Find the index of a specific element.
+
+Concatenate two tuples.
+
+Repeat a tuple n times using *.
+
+🔹 Intermediate Level
+
+Create a tuple with mixed data types.
+
+Unpack a tuple into multiple variables.
+
+Create nested tuples and access elements.
+
+Check if two tuples are equal.
+
+Find the sum of numeric tuple elements.
+
+Sort a tuple of numbers and return a new tuple.
+
+Convert a tuple to a dictionary (keys/values pair).
+
+Remove duplicates from a tuple.
+
+Merge multiple tuples into one.
+
+Create a tuple of tuples and access inner elements.
+
+🔵 SET PRACTICE PROGRAMS
+🔹 Basic Level
+
+Create a set and print its elements.
+
+Add single and multiple elements using add() and update().
+
+Remove elements using remove() and discard().
+
+Check if an element exists in a set.
+
+Find length of a set.
+
+Clear a set.
+
+Convert a list with duplicates into a set.
+
+🔹 Intermediate Level
+
+Perform union, intersection, and difference between two sets.
+
+Find symmetric difference between two sets.
+
+Check if one set is a subset/superset of another.
+
+Remove duplicates from a list using set.
+
+Create a frozen set and try to modify it (observe error).
+
+Find common elements in three sets.
+
+Get all elements that are in either of two sets but not both.
+
+Find the set of unique vowels in a given string.
+
+Count unique words from a sentence using set.
+
+Convert set to list and sort it.
+
+🔹 Advanced Level
+
+Create a set of tuples and find union/intersection.
+
+Generate power set (all subsets) of a given set.
+
+Remove elements from one set that are present in another.
+
+Check if two sets are disjoint.
+
+Find difference between two lists using sets.
+
+Check if two strings are anagrams using set comparison.
+
+Find duplicate elements in a list using set logic.
+
+Implement a small menu-driven program for set operations.
