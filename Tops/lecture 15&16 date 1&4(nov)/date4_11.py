@@ -84,11 +84,8 @@ while True:
 
             for i in product.keys():
                 print(f"{i}    | Qty.  {product[i]['qty']}   | Price .  {product[i]['price']}")
-
-
-
-
-
-
     else:
         print("Invalid User roll")
+    cho=input("Press 'Y' For Continue In System").lower()
+    if cho!='y' and cho!='yes':
+        break
