@@ -7,13 +7,15 @@ print("-"*55)
 print("Welocme In Grocery Shop".center(55,'-'))
 print("-"*55)
 
+
+
 product={}
 while True:
     menu="""
-    press 1 for manager roll
-    press 2 for customer roll
+    press 1 for manager
+    press 2 for customer 
     """
-    print(menu)
+    print(menu.upper())
     user_roll=int(input("Enter User Roll = "))
     
     if user_roll==1:
@@ -23,11 +25,11 @@ while True:
             option="""
         
                 press 1 for add product
-                press 2 for view product
+                press 2 for view stock
                 press 3 for remove product(only one product at time)
 
             """
-            print(option)
+            print(option.upper())
             choice=int(input("Enter Your Choice= "))
             if choice==1:
 
@@ -78,7 +80,7 @@ while True:
 
             choice=int(input("Enter Your Choice= "))
             if choice==1:
-                print("hello")
+                # print("hello")
                 for i in product.keys():
                     print(f"{i}    | Qty.  {product[i]['qty']}   | Price .  {product[i]['price']}")
             elif choice==2:
@@ -92,13 +94,6 @@ while True:
                         total_amount=amount*product_qty
                         product[product_name]['qty']-=product_qty
                         print("Amount To PAy =",total_amount)
-
-                        print()
-                        print("Remaining Stock is .....")
-                        print()
-                        for i in product.keys():
-                            print(f"{i}    | Qty.  {product[i]['qty']}   | Price .  {product[i]['price']}")
-
                     else:
                         print("Sorry Stock Are not available")
                 else:
@@ -108,7 +103,7 @@ while True:
             if choice!='y' and choice!='yes':
                 break
     else:
-        print("Invalid User Roll..")
+        print("Invalid User ...")
     cho=input("Press 'Y' For Continue In System = ").lower()
     if cho!='y' and cho!='yes':
         break
