@@ -77,7 +77,8 @@ while True:
                 amount=product[product_name].get('price')
                 if product_qty<=product[product_name].get('qty'):
                     total_amount=amount*product_qty
-                    product[product]['qty']-=product_qty
+                    product[product]['qty']=product[product]['qty']-product_qty 
+                    print("Amount To PAy =",total_amount)
                 else:
                     print("Sorry Stock Are not available")
             print("Remaining Stock is .....")
