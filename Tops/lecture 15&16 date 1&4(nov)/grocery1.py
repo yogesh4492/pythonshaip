@@ -11,10 +11,6 @@ manager={
     'Yogesh':{
         'id':'101',
         'password':'Yogesh@101'
-    },
-    'Anjali':{
-        'id':'102',
-        'password':'Anjali@102'
     }
 }
 
@@ -24,14 +20,16 @@ while True:
     press 1 for manager
     press 2 for customer 
     """
+    print("-"*40)
     print(menu.upper())
-    user_roll=int(input("Enter User Roll = "))
+    print("-"*40)
+    user_roll=int(input("Enter User Type = "))
     
     if user_roll==1:
         name=input("Enter Username = ")
         id=input("Enter UserID= ")
         password=input("Enter Password= ")
-        if name in manager:
+        if name in manager.keys():
             if manager[name]['id']== id and manager[name]['password']==password:
             
 
@@ -44,7 +42,9 @@ while True:
                         press 3 for remove product(only one product at time)
 
                     """
+                    print("-"*40)
                     print(option.upper())
+                    print("-"*40)
                     choice=int(input("Enter Your Choice= "))
                     if choice==1:
 
@@ -94,7 +94,9 @@ while True:
                     press 2 for Buy Product
 
             """
-            print(option)
+            print("-"*40)
+            print(option.upper())
+            print("-"*40)
 
             choice=int(input("Enter Your Choice= "))
             if choice==1:
@@ -122,6 +124,11 @@ while True:
                 break
     else:
         print("Invalid User ...")
+    print("-"*55)
     cho=input("Press 'Y' For Continue In System = ").lower()
     if cho!='y' and cho!='yes':
+        print("-"*55)
+        print("Thank You For Visiting".center(55,'-'))
+        print("-"*55)
         break
+    
