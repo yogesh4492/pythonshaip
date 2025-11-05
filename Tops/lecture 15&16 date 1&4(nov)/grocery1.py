@@ -11,6 +11,10 @@ manager={
     'Yogesh':{
         'id':'101',
         'password':'Yogesh@101'
+    },
+    'Anjali':{
+        'id':'102',
+        'password':'Anjali@102'
     }
 }
 
@@ -31,7 +35,7 @@ while True:
             if manager[name]['id']== id and manager[name]['password']==password:
             
 
-                print("Welcome To Manager Panel")
+                print(f"Hello {name} !! Welcome To Manager DashBoard")
                 while True:
                     option="""
                 
