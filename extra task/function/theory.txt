@@ -1,0 +1,22 @@
+function is reusable block of code
+
+its help fore reduce the code
+its help as no-write same code 
+
+function have mainly two type :
+1:user definde
+2:inbuild function
+
+- function working as four type:
+1: function without parameter and without return type
+2: function without parameter and with return type
+3: function with parameter and without return type
+4: function with parameter and with return type
+
+
+its define using def keyword in python
+
+one thing that in python no need to declare function first and user like c language
+
+- in function definition value or varible in side paranthess itscalled parameter
+and actual value we pass to function at time of calling function its called argument
