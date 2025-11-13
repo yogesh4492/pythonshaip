@@ -1,0 +1,28 @@
+Module : module is ac collection of function ,variable list and many more we can
+    import module anywhere in our project
+  ==  difference ways  to use module 
+
+
+  1) import modulename
+
+  2) from modulename import *
+
+  it will import all function variabble from that module
+
+  3) from modulename import func1,func2
+
+  trying to retrive only spcific function from modules
+
+  4) import modulename as nickname
+  ------------------------------------------
+  there are mainly 3 types of module
+
+  1)built -in module : which is provide by python installation time e.g. os,math...
+
+  2)userdefined module : which is created by user
+
+  3)third party module : which is need to installation as per our need e.g numpy,pandas
+  
+
+
+
