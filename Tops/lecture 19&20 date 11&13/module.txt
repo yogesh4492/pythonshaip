@@ -22,7 +22,3 @@ Module : module is ac collection of function ,variable list and many more we can
   2)userdefined module : which is created by user
 
   3)third party module : which is need to installation as per our need e.g numpy,pandas
-  
-
-
-
