@@ -1,0 +1,29 @@
+third party module:
+
+which is use to utilize third party module using of  instalation first 
+   using of pip  command we can install 3rd party module in our project 
+
+   e.g numpy,pandas
+
+   first of all if you want to use pandas need to install first
+
+
+   # pip instal pandas
+==============================================
+what is pandas?
+
+    pandas is  a most popular module  or library of data analytics .
+    using of pandas we can manipulat ,clean and clear data
+
+    before visualitation of data analytics data clean and data processign is mandatory.
+
+    so,using pandasd we can make our data clan and clear.
+
+    pandas name refer from " panel data"
+
+    pandas store records in 2 formats
+
+    1)series
+    2)dataframe (same like dictionary)
+
+    pandas mostly used with excel and csv type file.

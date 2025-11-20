@@ -1,0 +1,7 @@
+what is package ?
+
+package is  a collection of modules, functions and many more.
+
+in python any folder contain __init__.py file which is indicate as a packkage .
+this __init__.py file does not contain any content . this is blank file.
+
