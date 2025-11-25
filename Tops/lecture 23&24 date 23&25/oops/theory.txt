@@ -1,0 +1,88 @@
+oops : object oriented programming system
+
+
+--> class
+-> object
+-> inheritance 
+-> polymorphism
+-> encapsulation
+-> Abstarction 
+-> Aggregation
+
+=============================================
+
+1) class : class is a user definde data type which is represented by class keyword.
+
+class which is contain data member and member function in single entity.
+
+
+syntax:  
+
+class  <classname>:
+    data member
+    member function
+
+
+
+2) object : object is an instance of class .which is use to access properties of class.
+    we can say that object is a variable of class
+
+
+    syntax: 
+
+    <classname> objname;
+
+
+    e.g. whatsapp group(class)
+
+        member :(data member)
+
+        admin: (object) -  object can add - remove members
+
+        messaging - video calling - (membr function or methods)
+-----------------------------------------------------------------------
+__init__() : init function which is represent as a magic method or dunder method 
+    (double underscore method)
+
+    __init__ which is represented as a constructor in class
+
+    which is invoke automatically whenever we create object of  class
+
+self : self is a parameter which is represented current class properties.
+
+
+==================================================================
+
+difference beetween function and methods
+
+
+
+function which is represent by def keyword and methods are represente by def keywords
+
+
+function are independent , and methods are dependent
+
+
+function which define outside the class
+
+
+methods which is defined inside the class
+
+
+============================================================
+3) inheritance : one class derive propertiers of anotehr class its called inheritance
+     inheritance provide reusablity of code
+
+    using of inheritance we can reduce our code
+
+
+    we can save developement time
+
+
+    there is 5 type of inheritance :
+
+    1) single 
+    2) multiple 
+    3)multilevel
+    4)hirarchical
+    5)hybrid
