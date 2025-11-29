@@ -1,0 +1,22 @@
+there are 2 types of exception are there
+
+1) built-in exception 
+    -> there are many exceptions which is provided by python
+
+    e.g.    valueError
+            ZeroDivisionError
+            NameError
+            KeyError
+            IndexError
+
+2) userdefined exceptions:
+    when we want to stop execution flow as per our requirement 
+    when we want to add our exception error in program.
+
+    when we want to stop program at strong validation time.
+
+    syntax:
+    class AgeException(Exception):
+        pass
+        
+

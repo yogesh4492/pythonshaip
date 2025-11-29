@@ -1,0 +1,18 @@
+iterator : in program we don't need data in group
+    we need data step by step
+
+    using of iterator it will retrieve record step by step
+
+    by default any offer create
+
+    __iter__()
+    __next__()
+
+
+best example of iterator is read file , instagram post which display one by one when we scroll
+
+---------------------------------------------------------------------------------
+generator  : generator is like machine it will produce all result but send as per need
+
+here we use yield keyword in function instead of return 
+
