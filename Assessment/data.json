@@ -1,0 +1,7 @@
+{
+    "ram": {
+        "device_type": "car",
+        "issue": "battery problem",
+        "due_date": "11/01/2026"
+    }
+}
