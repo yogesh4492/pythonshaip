@@ -1,4 +1,4 @@
-from mymodule import *
+from mymodule2 import *
 
 n1=int(input("ENter number 1 = "))
 n2=int(input("Enter Number2= "))
