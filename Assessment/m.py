@@ -9,22 +9,26 @@ def welcome_fun():
     print("".center(55,"*"))
 
 def booking():
-    data={}
-    while True:
-        customer_name=input("Enter Customer Name : ".title())
-        device_type=input("enter device type : ".title())
-        issue=input("Enter Wht is issue in Device : ".title())
-        due_date=input("enter Due Date Of repairing : ".title())
-        sub={}
-        sub['device_type']=device_type
-        sub['issue']=issue
-        sub['due_date']=due_date
-        data[customer_name]=sub
-        ch=input("Press 'Y' To add More Customer Detail .... : ").lower()
-        if ch!="y":
-            print(data)
-            break
-    return data
+    try:
+        data={}
+
+        while True:
+            customer_name=input("Enter Customer Name : ".title())
+            device_type=input("enter device type : ".title())
+            issue=input("Enter Wht is issue in Device : ".title())
+            due_date=input("enter Due Date Of repairing : ".title())
+            sub={}
+            sub['device_type']=device_type
+            sub['issue']=issue
+            sub['due_date']=due_date
+            data[customer_name]=sub
+            ch=input("Press 'Y' To add More Customer Detail .... : ").lower()
+            if ch!="y":
+                print(data)
+                break
+        return data
+    except:
+        print("something wrong in booking")
             
         
 def thanks_fun():
@@ -70,42 +74,49 @@ def invoice():
 
 
 def main():
-    welcome_fun()
-    menu="""
-             A) Press 1 for check Existing Record
-             B) press 2 for add new customer details and parts details
-             C) press 3 for make invoice
-""" 
-    print(menu.title())
-    while True:
-        choice=int(input("Enter Your Choice ..."))
-        if choice==1:
-            if os.path.exists("data.json"):
-            
-                data=read_json()
-                # data=pd.read_json("data.json")
-                if not data:
-                    print("no data in json file")
-                else:
-                    print(data)
-                # data=read_json()
-                # print(data)
+    try:
+        welcome_fun()
+        menu="""
+                A) Press 1 for check Existing Record
+                B) press 2 for add new customer details and parts details
+                C) press 3 for make invoice
+            """ 
+        print(menu.title())
+        while True:
+            choice=int(input("Enter Your Choice ..."))
+            if choice==1:
+                if os.path.exists("data.json"):
+                
+                    data=read_json()
+
+                    # data=pd.read_json("data.json")
+                    if not data:
+                        print("no data in json file")
+                    else:
+                        print(data)
+                    # data=read_json()
+                    # print(data)
+                # else:
+                #     print("No json file detected")
+
+            elif choice==2:
+                global book
+                book=booking()
+                # dump_json(book)
+            elif choice==3:
+               d,t=invoice()
+               dump_json(d)
+            ch=input("Press Y to perform more operation... ").lower()
+            if ch!="y":
+                break
             else:
-                print("No json file detected")
+                pass
 
-        elif choice==2:
-            global book
-            book=booking()
-            dump_json(book)
-        elif choice==3:
-            invoice()
-        ch=input("Press Y to perform more operation... ").lower()
-        if ch!="y":
-            break
-        else:
-            pass
-
-    thanks_fun()
+    except FileNotFoundError as e:
+        print(f"Error Message: {e}")
+    finally:
+        thanks_fun()
+        # print("Thank You")
 
 
 if __name__=="__main__":
