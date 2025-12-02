@@ -1,3 +1,43 @@
+Exception: due to some unwanted event or action coding flow distrub this called exception
+to handle this kind of Exception its called Exception Handling.
+
+in python using of try and except block we can handle exception
+--------------------------------------------------------------
+one program can contain as many as exception in one code
+
+syntax:
+
+try:
+    code
+except type1:
+    statement 
+except type2:
+    statement 
+except type3:
+    statement 
+----------------------------------------
+else : else block always ececute when there is no exception in program.
+
+syntax:
+try:
+    error code
+except type:
+    statement
+else:
+    result
+---------------------------------------------------------
+finally : finally block always call when there is any exception occur or not .
+syntax:
+try:
+    error code
+except type:
+    statement
+else:
+    result 
+finally:
+    closing message
+
+-----------------------------------------------------------------------
 there are 2 types of exception are there
 
 1) built-in exception 

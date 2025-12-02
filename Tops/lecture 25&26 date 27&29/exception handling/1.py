@@ -1,17 +1,21 @@
-""" exception handling """
-#keyerror
+#print(a)
 
-product ={
-    "mobile":"vivo",
-    "qty":20,
-    "price":15000
-}
+
+"""without define variable we are using that variable its called exception 
+
+to handle this kind of exception we need to use try and except block."""
+"""
+
+syntax:
+
 try:
-    print(product)
-    name=input("Enter product name which you want to check in detailed: ")
-    print(product[name])
-except KeyError:
-    print("Invalid Key")
-finally: 
-    print("Thank you for using this app ")
-    
+    error code here,
+except:
+    statement
+
+"""
+
+try:
+    print(a)
+except:
+    print("something went wrong")
