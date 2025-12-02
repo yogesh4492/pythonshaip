@@ -70,7 +70,7 @@ methods which is defined inside the class
 
 
 ============================================================
-3) inheritance : one class derive propertiers of anotehr class its called inheritance
+3) inheritance : one class derive propertiers of another class its called inheritance
      inheritance provide reusablity of code
 
     using of inheritance we can reduce our code
@@ -86,3 +86,51 @@ methods which is defined inside the class
     3)multilevel
     4)hirarchical
     5)hybrid
+
+    ----------------------------------------------------
+    1)single inheritance:
+            class A
+            |
+            V 
+            class B 
+
+            class A is super class ,base class or parent class.
+
+    2)multilvel inheritance
+            class A 
+            |
+            V 
+            class B 
+            |
+            V 
+            class C
+    3) multiple inheritance
+    two different class inherited by single class
+      class A                         class B 
+      |                                 |
+      ----------------------------------
+                    |
+                    V 
+                    class C 
+
+    4) hierarchical inheritance 
+     one parent classd have mote than one child class
+
+                     Class A 
+                      | 
+        ---------------------------------
+        |                              |
+        class B                      class C
+    5) hybrid inheritance :
+            combination of hierarchical and multiple inheritance
+            Class A 
+                      | 
+        ---------------------------------
+        |                              |
+        class B                      class C
+        |
+        V 
+        class D
+
+
+
