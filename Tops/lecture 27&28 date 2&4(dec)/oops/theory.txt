@@ -1,7 +1,7 @@
 oops : object oriented programming system
 
 
---> class
+-> class
 -> object
 -> inheritance 
 -> polymorphism
