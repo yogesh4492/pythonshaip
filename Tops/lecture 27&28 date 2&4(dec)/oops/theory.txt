@@ -131,6 +131,47 @@ methods which is defined inside the class
         |
         V 
         class D
+========================================================================
+encapsulation: Encapsulation is similiar like capsule which wrap diffrent diffrent type of data in single entity.
+
+
+    using encapsulation we can prevent dayta from outside the uses.
+
+    there is 2 thing s involves with encapsulation
+    1)getter and setter method
+    2)prevent data (private-public)
+
+===========================================================================
+"""data hiding """
+using of encaposulation we can hide or prevent data from outside the class.
+
+there are 3 visiblity modes
+
+1)public
+2)private
+3)protectede public 
+
+
+1)public: by defaulkt all data member and member function are public
+we can acess from anywhere from the class and outside teh class
+
+eg.  name 
+    SUBJECT 
+
+2) PRIVATE: this kind of data member and me function can only access by class which is restricated by outside class.
+        this is use for data hiding and prevent data from outside the class
+
+        eg. __name 
+            __subject
+
+3) protected: this is only acess by own class and subclass but this is not working 100% as a data hiding
+
+eg.  _name
+    _subject
+
+
+
+
 
 
 
