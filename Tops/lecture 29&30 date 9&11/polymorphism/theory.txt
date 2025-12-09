@@ -1,0 +1,20 @@
+"""Polymorphism"""
+
+polymorphism: poly means many and morphism means forms
+        polymorphism is derived from greek word which means one named 
+        method has different different forms
+
+        polymorphism contain 2 methods
+
+        1)method overloading : compile time polymorphism
+        2)method overloading : run time polymorphism
+
+        ----------------------------------------------------
+        1)method overloading :
+                when one class contaiin same name methods with different forms,parameter its called method overloading
+
+               in python method overloading which is not supported
+        2)method overriding :
+               when parent and child both have same name method its called method overriding.
+
+               
