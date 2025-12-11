@@ -1,0 +1,14 @@
+re: regular expression using of re module in python we can perform below operations.
+
+
+find 
+search
+validation....etc.
+
+
+difference between match adn search
+match : it will check first occurance in statement
+        if it will not detect first matching value it will returnn false result
+
+search : it will check entire statement and check anywhere from the statement.
+

@@ -1,0 +1,13 @@
+GUI: Graphival user interface
+
+    GUI is more Interactiave for user
+    Gui is slower than cli
+
+CLI: command line interface
+   Cli is Faster Than GUI
+   Cli is compicated for user
+
+-----------------------------------
+for GUI we use tkinter module
+
+using tkinter Module we can build desktop application.
