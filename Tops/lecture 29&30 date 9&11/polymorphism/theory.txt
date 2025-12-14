@@ -15,7 +15,7 @@ polymorphism: poly means many and morphism means forms
 
                in python method overloading which is not supported
         2)method overriding :
-               when parent and child both have same name method its called method overrra ding.
+               when parent and child both have sameode name method its called method overrra ding.
 --------------------------------------------------------------------------------------------
 
 ABC: Abstraction : Abstract Base class

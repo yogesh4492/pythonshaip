@@ -1,5 +1,5 @@
 """
-.pack() :  it will setup as top , rightb , left, bottom
+.pack() :  it will setup as top , right , left, bottom
 
 .grid(row=0,column=0) : it will setup as grid wise
 

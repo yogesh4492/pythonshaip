@@ -11,14 +11,14 @@ class C(A):
         ans=self.num1*self.num2
         print(ans)
 class D(B):
-    def division(self):
+    def total(self):
         total=self.ans
         print(total)
 
 objb=D()
 objb.input()
 objb.Addition()
-objb.division()
+objb.total()
 
 objc=C()
 objc.input()

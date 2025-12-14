@@ -5,7 +5,8 @@ class B(A):
     def displayB(self):
         print("Class B here....")
 
-#always object create of derived or child classs
+#always object create of 
+# derived or child classs
 
 obj=B()
 obj.displayA()

@@ -1,4 +1,4 @@
-GUI: Graphival user interface
+GUI: Graphical user interface
 
     GUI is more Interactiave for user
     Gui is slower than cli

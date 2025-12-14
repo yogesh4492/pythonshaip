@@ -6,9 +6,21 @@ search
 validation....etc.
 
 
-difference between match adn search
+difference between match and search
 match : it will check first occurance in statement
-        if it will not detect first matching value it will returnn false result
+        if it will not detect first matching value it will return false result
 
 search : it will check entire statement and check anywhere from the statement.
+
+its also use for extart replace text
+and its very usefull will renaming file 
+one thing about it is find text that looks like given pattens
+
+-----------------------------------------------------------------------------
+methods of re module 
+1) sub
+2)search
+3)split
+4)match
+5)findall
 
