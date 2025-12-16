@@ -27,11 +27,14 @@ def increment():
 
 def decrement():
     global count,count_tk,total_tk,tv_price
-    count-=1
-    count_tk.set(count)
+    if count>0:
 
-    tv_price=tv_price*count
-    total_tk.set(tv_price)
+        count-=1
+        count_tk.set(count)
+
+        tv_price=15000*count
+        total_tk.set(tv_price)
+    
 
 
 lbl1=Label(screen,text="TV = 15000",font=('arial',26))
