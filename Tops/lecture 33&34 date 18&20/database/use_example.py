@@ -45,4 +45,23 @@ if choice==1:
     myCursor.execute(sql%values)
     mydb.commit()
     print("REcord Inserted successfully")
+elif choice==2:
+    sql="select * from student"
 
+    myCursor.execute(sql)
+    result=myCursor.fetchall()
+    print(result)
+
+elif choice==3:
+    id=int(input("Enter Which You want to remove: "))
+    sql="delete from student where id = %s"
+    args=(id)
+
+    myCursor.execute(sql%args)
+
+    mydb.commit()
+    sql="select * from student"
+
+    myCursor.execute(sql)
+    result=myCursor.fetchall()
+    print(result)
