@@ -7,10 +7,10 @@ screen=Tk()
 screen.geometry("500x500")
 
 
-#tkinter variablke 
+#tkinter variable 
 name_tk=StringVar()
 subject_tk=StringVar()
-score_tk=IntVar()
+score_tk=IntVar(value=1)
 
 def register():
     global name_tk,score_tk,subject_tk
@@ -21,10 +21,11 @@ def register():
 
     sql ="insert into student (name,subject,score) values ('%s','%s',%s)"
     values=(name_tk.get(),subject_tk.get(),score_tk.get())
-
+    
 
     mycursor.execute(sql%values)
     mydb.commit()
+    name_tk.set(""),subject_tk.set(""),score_tk.set(value=1)
     # messagebox.showinfo(title="Message",detail="record inserted successfully")
     sql="select* from student"
     mycursor.execute(sql)
