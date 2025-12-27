@@ -64,3 +64,15 @@ there are 3 ways to implement css in html web pages
 3)external css : in webapplication most of time we usee this type of css
 
             brcause it apply on whole website.
+========================================================================
+tables: tables which is represented by table tag
+
+tr: which is stand of table row
+
+th: which is stand of table heading
+
+td: which is stand of table data
+
+thead: for table heading
+
+tbody : which is contain table body main part 

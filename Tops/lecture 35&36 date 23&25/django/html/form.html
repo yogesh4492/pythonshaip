@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <table>
+            <tr>
+                <td>NAME</td>
+                <td>
+                    <input type="text" name="text" placeholder="Enter Your Name">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password" placeholder="Enter Your Password">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Select Your GEnder</td>
+                <td>
+                    <input type="radio" name="gender" value="male">male
+                    <input type="radio" name="gender" value="female">female
+                </td>
+            </tr>
+            <tr>
+                <td>Select Subject :</td>
+                <td>
+                    <select>
+                        <option readonly disabled selected>---select any---</option>
+                        <option value="">C language</option>
+                        <option value="">JAVA</option>
+                        <option value="">Python</option>
+                        <option value="">DA-DS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Chose your Departments</td>
+                <td>
+                    <input type="checkbox" name="software">software
+                    <input type="checkbox" name="networking">networking
+                    <input type="checkbox" name="marketing">marketing
+                    <!-- <input type="checkbox" name="software">software -->
+                </td>
+            </tr>
+            <tr>
+                <td>Your Suggestion : </td>
+                <td>
+                    <textarea name="" id="" rows="5" cols="30" placeholder="Enter Your Suggestion"></textarea>                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
