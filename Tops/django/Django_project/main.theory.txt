@@ -1,0 +1,53 @@
+what is django?
+---------------------------------
+django is a most powerfull secure,easy to understand web framework which is written in python programming language.
+
+
+using of django web framework we can build high level web applications.
+
+django webframework use MVT architecture
+
+
+M: Model(database)
+V:views(business logics)
+T: Templeates(html files)
+
+
+----------------------------------------------------------
+in other language'framework suppoprts MVC(Model View Controller) but in python django 
+(controller works inbuild) so, it supports MVT architecture.
+
+
+
+
+===================================================================
+for first time
+
+#pip Install virtualenv
+
+#python3 -m venv myvenv(environment name)
+
+# cd envname
+
+# script\activate 
+
+# pip install django
+
+#  django-admin startproject Project_name
+
+# cd project name 
+
+# python manage.py startapp app_name
+
+# python manage.py runserver
+
+
+-----------------------------------
+for second time
+
+cd env_name
+#script\activate // source bin/activate 
+
+#cd Project_name
+
+python manage.py runserver
